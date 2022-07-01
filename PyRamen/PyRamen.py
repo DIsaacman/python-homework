@@ -6,8 +6,8 @@ import csv
 from pathlib import Path
 
 # @TODO: Set file paths for menu_data.csv and sales_data.csv
-menu_filepath = Path('')
-sales_filepath = Path('')
+menu_filepath = Path('../Resources/menu_data.csv')
+sales_filepath = Path('../Resources/sales_data.csv')
 
 # @TODO: Initialize list objects to hold our menu and sales data
 menu = []
@@ -15,7 +15,17 @@ sales = []
 
 # @TODO: Read in the menu data into the menu list
 
+# Open the input path as a file object
+with open(menu_filepath, 'r') as menu_file:
 
+    # Print the datatype of the file object
+    print(type(menu_file))
+
+    # Pass in the csv file to the csv.reader() function
+    # (with ',' as the delmiter/separator) and return the csvreader object
+    csvreader = csv.reader(csvfile, delimiter=',')
+    # Print the datatype of the csvreader
+    print(type(menu_file))
 
 
 
