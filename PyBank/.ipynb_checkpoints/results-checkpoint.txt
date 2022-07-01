@@ -1,0 +1,17 @@
+---------Financial Analysis----------
+
+The Number of Periods is 86 months
+This equates to 7 years, and 2 months
+
+Total Profit is $38,382,578.00
+
+Average Change from Month-to-Month is $-2,315.12
+
+Greatest increase is $1,926,159.00 in Feb-2012
+Greatest decrease is $-2,196,167.00 in Sep-2013
+
+---------Summary Statistics----------
+
+Greatest profit is $1,170,593.00
+Greatest loss is $-1,196,225.00
+Average Profit/Loss is $446,309.05
